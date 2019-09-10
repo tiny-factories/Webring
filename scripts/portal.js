@@ -7,13 +7,13 @@ function Portal (sites) {
 
   // Templates
 
-  function _readme () {
-    return `<p class='readme'>This webring is an attempt to inspire artists & developers to build their own website and share traffic among each other. The ring welcomes personalized websites such as <b>diaries, wikis & portfolios</b>.</p><p>To add yourself to the ring, submit a <a href='https://github.com/XXIIVV/webring/edit/master/scripts/sites.js' target='_blank'>Pull Request</a>.<br />If you found a broken link, please <a href='https://github.com/XXIIVV/webring/issues/new' target='_blank'>report it</a>.</p>`
-  }
+  // function _readme () {
+  //   return `<p class='readme'>This webring is an attempt to inspire artists & developers to build their own website and share traffic among each other. The ring welcomes personalized websites such as <b>diaries, wikis & portfolios</b>.</p><p>To add yourself to the ring, submit a <a href='https://github.com/XXIIVV/webring/edit/master/scripts/sites.js' target='_blank'>Pull Request</a>.<br />If you found a broken link, please <a href='https://github.com/XXIIVV/webring/issues/new' target='_blank'>report it</a>.</p>`
+  // }
 
-  function _buttons () {
-    return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">Random</a> | <a href='https://github.com/XXIIVV/webring'>Information</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a> | <a href="hallway.html">The Hallway</a> | <a id="opml">OPML</a></p>`
-  }
+  // function _buttons () {
+  //   return `<p class='buttons'><a href='#random' onClick="portal.reload('random')">Random</a> | <a href='https://github.com/XXIIVV/webring'>Information</a> <a id='icon'  href='#random' onClick="portal.reload('random')"></a> | <a href="hallway.html">The Hallway</a> | <a id="opml">OPML</a></p>`
+  // }
 
   function _directory (sites) {
     return `
